@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Flexbox.md</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        .s0 { color: #cf8e6d;}
+        .s1 { color: #bcbec4;}
+        .s2 { color: #bcbec4;}
+        .s3 { color: #c77dbb; font-style: italic;}
+        .s4 { color: #6aab73;}
+    </style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060">
+    <tr>
+        <td>
+            <center>
+                <font face="Arial, Helvetica" color="#000000">
+                    Flexbox.md</font>
+            </center>
+        </td>
+    </tr>
+</table>
+<pre><span class="s0"># </span><span class="s2">Flexbox</span>
+
+<span class="s2">Flexbox is really simple</span><span class="s1">:</span>
+
+<span class="s0">```</span><span class="s3">CSS</span>
+<span class="s4">* {</span>
+  <span class="s4">display: flex;</span>
+ <span class="s4">}</span>
+<span class="s0">```</span>
+
+<span class="s2">I recommend that you use a container, for example if you want to center an Element</span><span
+            class="s1">:</span>
+
+<span class="s0">```</span><span class="s3">CSS</span>
+<span class="s4">.Container {</span>
+    <span class="s4">display: flex;</span>
+    <span class="s4">justify-content: center;</span>
+    <span class="s4">align-items: center;</span>
+<span class="s4">}</span>
+<span class="s0">```</span>
+
+<span class="s2">Example of Flexbox</span><span class="s1">:</span>
+
+<span class="s1">![</span><span class="s2">flexboxExample.png</span><span class="s1">](</span><span class="s2">flexboxExample.png</span><span
+            class="s1">)</span>
+
+<span class="s2">Code</span><span class="s1">:</span>
+
+<span class="s2">HTML</span>
+
+<span class="s0">```</span><span class="s3">html</span>
+
+<span class="s4">&lt;div class=&quot;container&quot;&gt;</span>
+    <span class="s4">&lt;div class=&quot;item&quot;&gt;1&lt;/div&gt;</span>
+    <span class="s4">&lt;div class=&quot;item&quot;&gt;2&lt;/div&gt;</span>
+    <span class="s4">&lt;div class=&quot;item&quot;&gt;3&lt;/div&gt;</span>
+    <span class="s4">&lt;div class=&quot;item&quot;&gt;4&lt;/div&gt;</span>
+    <span class="s4">&lt;div class=&quot;item&quot;&gt;5&lt;/div&gt;</span>
+<span class="s4">&lt;/div&gt;</span>
+<span class="s0">```</span>
+
+<span class="s2">CSS</span>
+
+<span class="s0">```</span><span class="s3">css</span>
+<span class="s4">div.item {</span>
+    <span class="s4">width: 98px;</span>
+    <span class="s4">height: 98px;</span>
+    <span class="s4">background-color:aqua;</span>
+    <span class="s4">border: black solid 2px;</span>
+    <span class="s4">text-align: center;</span>
+    <span class="s4">line-height: 75px;</span>
+    <span class="s4">font-size: 75px;</span>
+<span class="s4">}</span>
+<span class="s4">div.container {</span>
+    <span class="s4">background-color: blue;</span>
+    <span class="s4">display:flex;</span>
+    <span class="s4">align-items: center;</span>
+    <span class="s4">justify-content: center;</span>
+    <span class="s4">height: 120px;</span>
+    <span class="s4">gap: 1%;</span>
+<span class="s4">}</span>
+<span class="s0">```</span></pre>
+</body>
+</html>
